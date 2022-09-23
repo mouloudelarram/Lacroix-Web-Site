@@ -1,0 +1,81 @@
+header {
+    position:relative;
+    padding:1.4em;
+    background: linear-gradient(180deg, #16213E 0%, #0F3460 100%);
+}
+
+h3 {
+    color:#533483;
+    font-size:1.4em;
+}
+
+.wrapper {
+    max-width:1200px;
+}
+
+.second-side li {
+    display:flex;
+    align-items: center;
+}
+
+.second-side p {
+    max-width:400px;
+}
+
+.second-side img {
+    margin-left:1em;
+}
+
+em {
+    color:#533483;
+}
+
+a {
+    font-weight:600;
+}
+
+ul {
+    list-style-type:none;
+}
+article ul li::before {
+    content: "\2022";
+    color: #533483;
+    font-weight: 900;
+    font-size:1.6em;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+article {
+    background-color:#f1f1f1;
+    padding:1.4em;
+    border-radius:8px;
+    box-shadow:4px 4px rgba(0,0,0,.1);
+    margin:3em 0;
+}
+
+.github-link {
+    display:flex;
+    align-items:center;
+} 
+.github-link img {
+    margin-right:5px;
+}
+
+@media(min-width:1050px) {
+    article {
+        display:flex;
+    }
+    .second-side {
+        border-left:1px solid #ccc;
+        padding:4em 0 0 2em;
+    }
+
+    .first-side {
+        padding-right:2em;
+        width:100%;
+        max-width:60%;
+    }
+
+}
