@@ -8,10 +8,16 @@ main {
     padding:1.4em 1.4em 0 1.4em;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 body {
     margin:0;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width:100%;
+    min-width:375px;
 }
 
 nav {
