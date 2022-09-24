@@ -4,6 +4,10 @@ header {
     background: linear-gradient(180deg, #16213E 0%, #0F3460 100%);
 }
 
+h1 {
+    font-size:2em;
+}
+
 em {
     color:#533483;
 }
@@ -43,4 +47,12 @@ a {
     justify-content: space-between;
     padding-left:1em;
     align-items: center;
+}
+
+@media(min-width:1050px) {
+
+    h1 {
+        font-size:3em;
+    }
+
 }

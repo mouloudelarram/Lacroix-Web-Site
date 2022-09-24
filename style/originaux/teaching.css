@@ -4,6 +4,10 @@ header {
     background: linear-gradient(180deg, #16213E 0%, #0F3460 100%);
 }
 
+h1 {
+    font-size:2em;
+}
+
 h3 {
     color:#533483;
     font-size:1.4em;
@@ -76,6 +80,10 @@ article {
         padding-right:2em;
         width:100%;
         max-width:60%;
+    }
+
+    h1 {
+        font-size:3em;
     }
 
 }

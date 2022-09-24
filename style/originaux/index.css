@@ -74,10 +74,10 @@ ul {
     display:block;
     height:135px;
     width:47.5%;
-    padding:.2em;
+    padding:.4em;
     margin:4px;
     color:#fff;
-    font-size:1.1em;
+    font-size:.9em;
     font-weight: 900;
     text-transform: uppercase;
     background:url("../images/container-one.png") no-repeat;
@@ -126,6 +126,14 @@ ul {
     padding:.8em;
 }
 
+@media(min-width:600px)
+{
+    .teaching-section li {
+        padding:.8em;
+        font-size:1.4em;
+    }
+}
+
 @media(min-width:1050px)
 {
     #vect-img {
@@ -155,10 +163,5 @@ ul {
 
     .contact-section {
         margin-top:6em;
-    }
-
-    .teaching-section li {
-        padding:.8em;
-        font-size:1.4em;
     }
 }
